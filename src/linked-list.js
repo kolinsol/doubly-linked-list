@@ -97,7 +97,4 @@ class LinkedList {
     }
 }
 
-let a = new LinkedList();
-console.log(a.append(4).reverse().deleteAt(0).clear().insertAt(0, 3));
-
 module.exports = LinkedList;
